@@ -2,7 +2,7 @@ from elements.lamp import Lamp
 from elements.socket import Socket
 
 # Creating a new object Lamp.
-my_lamp = Lamp(voltage=240, socket="E-24", wattage=7, attached=True)
+my_lamp = Lamp(voltage=240, socket="DI-38", wattage=7, attached=True)
 
 # Print its settings.
 print(my_lamp)
