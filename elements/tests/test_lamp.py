@@ -1,5 +1,4 @@
 from elements.lamp import Lamp
-from elements import colors
 
 def test_creating_lamp():
     test_lamp = Lamp(110, 'E-14', 60)
