@@ -17,3 +17,5 @@ echo "Running tests"
 echo "=============================="
 echo
 pytest $tests
+
+docker build -t simple-electrical-circuit .
