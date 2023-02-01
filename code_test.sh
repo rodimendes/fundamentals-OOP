@@ -1,11 +1,11 @@
 #!/bin/sh
 
-interaction=trying_scenarios
+interaction=elements/*_interactions.py
 tests=elements/tests
 
 echo "Running interactions"
 echo "=============================="
-for file in "$interaction"/*
+for file in $interaction
 do
   echo "------------------------------"
   echo
@@ -17,5 +17,3 @@ echo "Running tests"
 echo "=============================="
 echo
 pytest $tests
-
-docker build -t simple-electrical-circuit .

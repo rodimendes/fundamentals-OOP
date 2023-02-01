@@ -1,4 +1,4 @@
-from elements.power_source import PowerSource
+from power_source import PowerSource
 
 # Creating a new object from PowerSource class.
 # If you want to create an ilimited source,

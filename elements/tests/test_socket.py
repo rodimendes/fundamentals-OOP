@@ -1,8 +1,8 @@
-from elements.socket import Socket
+from elements.socket_type import SocketType
 from elements.lamp import Lamp
 from elements import colors
 
-my_socket = Socket("E-27")
+my_socket = SocketType("E-27")
 my_lamp = Lamp(110, "E-27", 60)
 
 

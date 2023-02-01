@@ -1,7 +1,6 @@
 from elements import colors
 
-
-class Socket:
+class SocketType:
 
     def __init__(self, type: str):
         self.type = type

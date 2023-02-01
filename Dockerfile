@@ -1,11 +1,11 @@
-FROM python:3
+FROM python:latest
 
 WORKDIR /main_code
 
-COPY requirements.txt requirements.txt
+COPY ./requirements.txt /main_code
+RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
-RUN pip install -r requirements.txt
+COPY . /main_code
+COPY elements/* /main_code
 
-COPY . .
-
-CMD [ "python", "/main_code/trying_scenarios/power_source_interactions.py" ]
+CMD [ "python" ]

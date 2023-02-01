@@ -1,7 +1,7 @@
-from elements.switch import Switch
-from elements.socket import Socket
-from elements.power_source import PowerSource
-from elements.lamp import Lamp
+from switch import Switch
+from socket_type import SocketType
+from power_source import PowerSource
+from lamp import Lamp
 
 # Creating a new object from Switch class.
 my_switch = Switch()
@@ -11,7 +11,7 @@ my_switch = Switch()
 print(my_switch)
 
 # Socket and power source objects to be connected.
-my_socket = Socket(type="E-27")
+my_socket = SocketType(type="E-27")
 my_power_source = PowerSource(capacity=0, connected=False) # capacity == 0, means ilimited source
 
 print(my_switch.system_check_up(my_socket))

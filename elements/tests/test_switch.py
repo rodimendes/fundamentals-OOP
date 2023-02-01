@@ -1,11 +1,11 @@
 from elements.switch import Switch
-from elements.socket import Socket
+from elements.socket_type import SocketType
 from elements.power_source import PowerSource
 from elements.lamp import Lamp
 from elements import colors
 
 switch = Switch()
-socket = Socket("DI-38")
+socket = SocketType("DI-38")
 power = PowerSource(0)
 lampada = Lamp(voltage=220, socket='DI-38', wattage=7)
 
