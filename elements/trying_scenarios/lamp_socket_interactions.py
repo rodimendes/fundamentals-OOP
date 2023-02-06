@@ -1,5 +1,5 @@
-from lamp import Lamp
-from socket_type import SocketType
+from elements.lamp import Lamp
+from elements.socket_type import SocketType
 
 # Creating a new object Lamp.
 my_lamp = Lamp(voltage=240, socket="DI-38", wattage=7, attached=True)

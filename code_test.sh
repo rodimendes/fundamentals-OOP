@@ -1,6 +1,6 @@
 #!/bin/sh
 
-interaction=elements/*_interactions.py
+interaction="elements/trying_scenarios/*"
 tests=elements/tests
 
 echo "Running interactions"

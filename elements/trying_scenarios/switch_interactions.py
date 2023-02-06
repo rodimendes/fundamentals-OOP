@@ -1,7 +1,7 @@
-from switch import Switch
-from socket_type import SocketType
-from power_source import PowerSource
-from lamp import Lamp
+from elements.switch import Switch
+from elements.socket_type import SocketType
+from elements.power_source import PowerSource
+from elements.lamp import Lamp
 
 # Creating a new object from Switch class.
 my_switch = Switch()
